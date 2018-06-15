@@ -152,7 +152,7 @@ public class DownFileActivity extends AppCompatActivity implements View.OnClickL
                 break;
 
             case R.id.restart:
-                System.out.println("cur Lenght " + curLength);
+                System.out.println("cur Lenght   " + curLength);
                 down( "bytes=" + (curLength + 1) + "-2172142", true);
                 break;
         }
